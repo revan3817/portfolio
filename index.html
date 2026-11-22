@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjith R | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Ranjith<span class="logo-dot">.</span>R<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">
+                    <span class="wave">👋</span> Hello, I'm
+                </p>
+                <h1 class="hero-name">
+                    <span class="name-line">Ranjith</span>
+                    <span class="name-line accent">R</span>
+                </h1>
+                <div class="hero-typewriter">
+                    <span class="typewriter-prefix">I'm a </span>
+                    <span class="typewriter-text" id="typewriter"></span>
+                    <span class="typewriter-cursor">|</span>
+                </div>
+                <p class="hero-location">
+                    <i class="fas fa-map-marker-alt"></i> Kumbakonam, Tamilnadu
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Contact Me</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-container">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-circle">
+                        <span class="avatar-initials">RR</span>
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fab fa-java"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <p class="about-text">
+                        I am <strong>Ranjith R</strong>, an MCA student at <strong>Annai College, Kumbakonam</strong>. 
+                        I am passionate about programming and technology, and I aim to become a 
+                        <strong>software developer</strong>. I am constantly working to improve my technical knowledge 
+                        and stay up-to-date with the latest advancements in the field.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-card">
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-label">Technical Skills</div>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-number" data-count="1">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="stat-label">MCA Student</div>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-code"></i></div>
+                        <div class="stat-label">Aspiring Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card" data-skill="html">
+                    <div class="skill-icon-wrap">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-card glass-card" data-skill="css">
+                    <div class="skill-icon-wrap">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-card glass-card" data-skill="js">
+                    <div class="skill-icon-wrap">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-card glass-card" data-skill="java">
+                    <div class="skill-icon-wrap">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-card glass-card" data-skill="sql">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="project-showcase">
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Database</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Appointment Scheduling System</h3>
+                    <p class="project-desc">
+                        A comprehensive appointment scheduling application using database management 
+                        to streamline the process of booking and managing appointments efficiently.
+                    </p>
+                    <div class="project-features">
+                        <h4><i class="fas fa-star"></i> Key Features</h4>
+                        <ul>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Patient Registration</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Appointment Booking</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Doctor Details Management</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Database Storage</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Availability Checking</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;education&gt;</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot current">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">
+                            <i class="fas fa-calendar"></i> 2025 – Present
+                        </span>
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <p class="timeline-institution">
+                            <i class="fas fa-university"></i> Annai College of Arts and Science
+                        </p>
+                        <span class="timeline-status ongoing">Currently Pursuing</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">
+                            <i class="fas fa-calendar"></i> 2022 – 2025
+                        </span>
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p class="timeline-institution">
+                            <i class="fas fa-university"></i> Nalli Kuppusamy Arts College
+                        </p>
+                        <span class="timeline-status completed">Completed</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">
+                            <i class="fas fa-calendar"></i> HSC
+                        </span>
+                        <h3>Higher Secondary Certificate (12th)</h3>
+                        <p class="timeline-institution">
+                            <i class="fas fa-university"></i> Saukathul Islam (BMS) Higher Secondary School
+                        </p>
+                        <span class="timeline-status completed">Completed</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">
+                            <i class="fas fa-calendar"></i> SSLC
+                        </span>
+                        <h3>Secondary School Leaving Certificate (10th)</h3>
+                        <p class="timeline-institution">
+                            <i class="fas fa-university"></i> Saukathul Islam (BMS) Higher Secondary School
+                        </p>
+                        <span class="timeline-status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;contact&gt;</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kumbakonam, Tamilnadu</p>
+                        </div>
+                    </div>
+                    <div class="contact-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ranjith.r@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <h4>Currently</h4>
+                            <p>MCA Student @ Annai College</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Ranjith<span class="logo-dot">.</span>R<span class="logo-bracket">/&gt;</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="footer-text">
+                    &copy; 2026 Ranjith R. Crafted with <span class="heart">&hearts;</span> and code.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
